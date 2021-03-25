@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Recycler View demo</string>
+    <string name="dayOfWeek">День недели :</string>
+    <string name="addButtonDescription">Кнопка добавления заметки</string>
+    <string name="hintEditTitle">Введите заголовок заметки</string>
+    <string name="hintEditDecription">Введите описание заметки</string>
+    <string name="rbLowPriority">1-Низкий</string>
+    <string name="rbMiddlePriority">2-Средний</string>
+    <string name="rbHightPriority">3-Высокий</string>
+    <string name="buttonAddNotesText">Добавить заметку</string>
+    <array name="daysOfWeek">
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+        <item>Воскресенье</item>
+
+    </array>
+</resources>
