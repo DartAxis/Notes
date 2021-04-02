@@ -28,8 +28,6 @@ public class AddNoteActivity extends AppCompatActivity {
         editTextTitle = findViewById(R.id.editTextTitle);
         editTextDescription = findViewById(R.id.editTextDescription);
         spinnerDayOfWeek = findViewById(R.id.spinnerDayOfWeek);
-
-
     }
 
     public void onClickSaveAddNote(View view) {
@@ -43,6 +41,5 @@ public class AddNoteActivity extends AppCompatActivity {
 
     public void onClickRb(View view) {
         priority = Integer.parseInt(view.getTag().toString());
-        Log.i("MyLog",String.format("Установлен приоритет - %s",priority));
     }
 }
